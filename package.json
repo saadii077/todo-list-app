@@ -1,0 +1,24 @@
+{
+  "name": "@saad07/todo-list-app",
+  "version": "1.0.0",
+  "description": "Simple todo-list app",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Saad",
+  "license": "MIT",
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
